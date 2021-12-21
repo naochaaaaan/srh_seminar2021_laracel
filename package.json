@@ -1,0 +1,41 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "@prettier/plugin-php": "^0.17.6",
+        "axios": "^0.24.0",
+        "bootstrap": "^4.5.0",
+        "cross-env": "^7.0",
+        "jquery": "^3.2",
+        "laravel-mix": "^6.0.39",
+        "lodash": "^4.17.19",
+        "popper.js": "^1.12",
+        "prettier": "^2.5.1",
+        "resolve-url-loader": "^4.0.0",
+        "sass": "^1.20.1",
+        "sass-loader": "^7.1.0",
+        "vue": "^2.5.17",
+        "vue-loader": "^15.9.7",
+        "vue-template-compiler": "^2.6.10",
+        "webpack-cli": "^4.9.1"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.36",
+        "@fortawesome/free-brands-svg-icons": "^5.15.4",
+        "@fortawesome/free-solid-svg-icons": "^5.15.4",
+        "@fortawesome/vue-fontawesome": "^2.0.6",
+        "node-sass": "^4.14.1",
+        "vue-burger-menu": "^2.0.5",
+        "vue-router": "^3.5.3",
+        "vue-smoothscroll": "^0.2.0",
+        "vue-typer": "^1.2.0"
+    }
+}
